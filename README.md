@@ -1,6 +1,6 @@
 # Mission to Mars
 
-A web application that scrapes various websites for data related to the Mission to Mars, stores scraped data in MongoDB, and displays the latest information in a single HTML page.
+A web application that scrapes various websites for real-time data related to the Mission to Mars, stores scraped data in MongoDB, and displays the latest information in a single HTML page.
 
 ## Step 1 - Scraping
 
@@ -19,6 +19,14 @@ A web application that scrapes various websites for data related to the Mission 
 `app.py`: creates an app route called `/scrape` that calls the `scrape` function and store data in Mongo database; creates a root route `/` that queries the Mongo database and pass the mars data into an HTML template to display the data.
 
 `index.html`: a template HTML file that display all data in the appropriate HTML elements.
+
+## How to run this app
+
+1. Clone this repository.
+2. Make sure MongoDB is installed. [Here](Installing-MongoDB.md) is installation instruction from Northwestern Data Science Bootcamp.
+3. In terminal (or command line in Windows), type `mongod`
+4. Open another terminal window, navigate to `mars-web-scraping/` directory (where this README file is located).
+5. In the terminal, type `python app.py`. The webpage will display on local browser.
 
 ## Webpage Screenshots
 
