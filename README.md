@@ -1,6 +1,6 @@
 # Mission to Mars
 
-A web application that scrapes various websites for real-time data related to the Mission to Mars, stores scraped data in MongoDB, and displays the latest information in a single HTML page.
+A web application that scrapes various websites for real-time data related to the Mission to Mars, stores scraped data in MongoDB, and displays the latest information in a single HTML page. Check out the web application [here](https://mars-web-scraper.herokuapp.com/)!
 
 ## Step 1 - Scraping
 
